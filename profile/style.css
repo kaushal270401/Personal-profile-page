@@ -1,0 +1,81 @@
+body {
+    background-color: bisque;
+
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  height: 30px;
+  background-color: black;
+  padding-block: 20px;
+}
+.logo{
+    color: aliceblue;
+}
+.list {
+  color: white;
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 30px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+.main_page {
+  height: 80vh;
+  background-color: bisque;
+  display: flex;
+  padding-inline: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  font-size: 3rem;
+}
+.btn {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+img {
+  border-radius: 50%;
+  height: 500px;
+}
+.underline {
+    text-decoration: underline;
+}
+.center {
+  text-align: center;
+}
+.para {
+  font-size: 1.5rem;
+  padding-inline: 30%;
+}
+.footer {
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+.about_us{
+    display: flex;
+    justify-content: space-around;
+}
+.about_img{
+    margin-left: 150px;
+}
+.skill_list{
+    margin-left: 380px;
+    color: black;
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 30px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+  }
+
+
